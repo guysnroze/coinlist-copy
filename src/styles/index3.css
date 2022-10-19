@@ -1,0 +1,90 @@
+.joinContainer {
+    max-width: 1000px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-bottom: 128px;
+    margin-top: 128px;
+}
+
+.joinText {
+    font-size: 33px;
+    color: #444;
+    font-weight: 700;
+    margin-top: 8px;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+}
+
+.grid-colums {
+    display: inline-block;
+    padding-left: 16px;
+    padding-right: 16px;
+    vertical-align: top;
+    position: relative;
+    font-size: 16px;
+    width: 320px;
+    height: 280px;
+}
+
+.grid-top {
+    margin-top: 64px;
+    height: 72px;
+    width: 290px;
+    text-align: center;
+}
+
+.joinGrid {
+    margin-left: -16px;
+    margin-right: -16px;
+    /* display: flex; */
+}
+
+.early {
+    text-align: center;
+    height: 34px;
+    width: 290px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #444;
+}
+
+.we {
+    text-decoration: none;
+}
+
+.we:hover {
+    text-decoration:underline
+}
+
+
+.out {
+    margin-top: 64px;
+    margin-bottom: 64px;
+    height: 60px;
+    text-align: center;
+}
+
+.learn {
+    width: 290px;
+    display: inline-block;
+    cursor: pointer;
+    font-weight: 500;
+    text-decoration: none;
+    box-shadow: 0px 1px 1px rgb(22 29 37 / 5%), inset 0px 2px 0px rgb(255 255 255 / 5%);
+    border-radius: 0.4em;
+    background-color: #83199a;
+    color: white;
+    padding: 15px 17px;
+
+}
+
+.learn:hover {
+    background: #6d1581;
+    transition: .2s;
+}
